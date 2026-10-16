@@ -1,0 +1,23 @@
+{
+  "id": "media-maker-gifcities",
+  "title": "Media Maker: GifCities",
+  "description": "Companion add-on for Media Maker. Adds a search over the Internet Archive's GifCities collection to the graphics library and lets AI CSV imports fetch era gifs automatically. Nothing is bundled; every gif is downloaded by you into your own user data.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    { "name": "The Final Artificer" }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "media-maker",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": ["main.js"],
+  "styles": ["styles/gifcities.css"]
+}

@@ -1,0 +1,4 @@
+/* The search window floats over Media Maker's fullscreen editor and its
+   graphics library; without this a click on either buries it. Kept below
+   Foundry's notification layer. */
+.mm-gc-ontop { z-index: 9600 !important; }
